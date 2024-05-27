@@ -1,11 +1,11 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/formula1-logo.jpg";
+import project2 from "../assets/projects/nytime.jpg";
+import project3 from "../assets/projects/weatherApp.png";
+import project4 from "../assets/projects/maggy.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Je suis un développeur full stack passionné, spécialisé dans la création d'applications web et mobile robustes et évolutives. J'ai développé mes compétences dans les technologies front-end telles que React et Next.js, ainsi que dans les technologies back-end comme Node.js, Express.js et MongoDB. Actuellement, je suis à la recherche d'un stage pour faire mes premiers pas en entreprise dans ce domaine et mettre à profit mon experience pour développer des solutions innovantes qui stimulent la croissance des entreprises et offrent des expériences utilisateur exceptionnelles.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `Je suis un développeur full stack dévoué et polyvalent, passionné par la création d'applications web efficaces et performantes. J'ai étudié diverses technologies, dont React / Native, Next.js, Node.js, Expo Express.js et MongoDB. Mon parcours en développement web a commencé par une profonde curiosité pour le fonctionnement des choses ainsi qu'un potentiel créatif infini, et il a évolué en une reconversion où je m'efforce continuellement d'apprendre et de m'adapter à de nouveaux défis. Je m'épanouis dans des environnements collaboratifs et j'aime résoudre des problèmes complexes pour fournir des solutions de haute qualité. J'aime rester actif, explorer de nouvelles technologies et contribuer à de nouveaux projets.`;
 
 export const EXPERIENCES = [
   {
@@ -40,37 +40,37 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Formula 1 App (Work in progress)",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Application autour de la Formule 1 moderne et historique, Comprenant des fonctionnalités tel que l'authentification utilisateur, compte à rebour, détails des courses et Bio pilotes, integration des 'Highlight' vidéo, Random Fact...",
+    technologies: ["HTML", "CSS", "React Native", "Node.js", "MongoDB", "Expo"],
   },
   {
-    title: "Task Management App",
+    title: "My Morning News",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Application Web affichant en Homepage des articles récent via une API, possibilité de Bookmark les articles interessant pour les lires plus tard, ainsi qu'ajouter un Top article en haut de page.",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
-    title: "Portfolio Website",
+    title: "Weather App",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Application méterologique, possibilité de choisir la ville souhaité et d'avoir la méteo en temps réel via une API",
+    technologies: ["HTML", "CSS", "React"],
   },
   {
-    title: "Blogging Platform",
+    title: "Maggy",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Projet professionnel d'une jeune entrepreneure auquel j'ai participé au début du développement. Application Mobile reprennant les codes de 'Vinted' en y ajoutant des idées plus écologique et moins lucrative pour les personnes dans le besoin.",
+    technologies: ["HTML", "CSS", "React Native", "Express.js", "MongoDB"],
   },
 ];
 
 export const CONTACT = {
-  address: "4 Rue Fenelon, 13006 Marseille",
+  address: "Marseille 13006, France",
   phoneNo: "(+33) 07.69.22.98.15",
   email: "lucasviola.pro@hotmail.com",
 };
