@@ -11,6 +11,14 @@ export const ABOUT_TEXT = `Je suis un développeur full stack dévoué et polyva
 
 export const PROJECTS = [
   {
+    title: "Landing page template FxA",
+    image: project0,
+    description:
+      "Une landing page avec style moderne réalisée pour m'entrainer lors d'une formation",
+    technologies: ["React", "Tailwind", "JavaScript"],
+    url: "https://landing-page-template-fx-a.vercel.app/",
+  },
+  {
     title: "Coders Monkey",
     image: project0,
     description:
