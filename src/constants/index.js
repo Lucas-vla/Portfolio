@@ -7,9 +7,15 @@ import project0 from "../assets/projects/singe.svg";
 import project6 from "../assets/projects/blue-fox.png";
 import project7 from "../assets/projects/Taskmanager.jpg";
 
-export const HERO_CONTENT = `Je suis un développeur full stack passionné, spécialisé dans la création d'applications web et mobile robustes et évolutives. J'ai développé mes compétences dans les technologies front-end telles que React et Next.js, ainsi que dans les technologies back-end comme Node.js, Express.js et MongoDB. Actuellement, je suis à la recherche d'un stage pour faire mes premiers pas en entreprise dans ce domaine et mettre à profit mon experience pour développer des solutions innovantes qui stimulent la croissance des entreprises et offrent des expériences utilisateur exceptionnelles.`;
+export const HERO_CONTENT =
+  "Bonjour et bienvenue sur mon portfolio ! Ici, vous découvrirez les projets que j'ai réalisés au cours de mes formations, ainsi que quelques projets personnels qui me tiennent particulièrement à cœur. Certains de ces projets sont encore en développement – un manque d’expérience me freine parfois dans leur réalisation, mais je m'efforce de progresser pour les mener à bien et les concrétiser selon mes aspirations.";
 
-export const ABOUT_TEXT = `Je suis un développeur full stack dévoué et polyvalent, passionné par la création d'applications web efficaces et performantes. J'ai étudié diverses technologies, dont React / Native, Next.js, Node.js, Expo Express.js et MongoDB. Mon parcours en développement web a commencé par une profonde curiosité pour le fonctionnement des choses ainsi qu'un potentiel créatif infini, et il a évolué en une reconversion où je m'efforce continuellement d'apprendre et de m'adapter à de nouveaux défis. Je m'épanouis dans des environnements collaboratifs et j'aime résoudre des problèmes complexes pour fournir des solutions de haute qualité. J'aime rester actif, explorer de nouvelles technologies et contribuer à de nouveaux projets.`;
+export const ABOUT_TEXT = ` Développeur Web & Mobile de reconversion, passionné par la création d’applications
+ Web et Mobile, je suis motivé par l’envie d'apprendre et d'améliorer mes
+ compétences techniques. Grâce à ma détermination et à ma capacité d'adaptation
+ rapide, je recherche activement une alternance pour m'immerger dans des projets
+ professionnels en entreprise. Mon objectif est de contribuer à des projets tout en
+ acquérant une expérience pratique dans le développement web.`;
 
 export const PROJECTS = [
   {
@@ -37,19 +43,19 @@ export const PROJECTS = [
     url: "https://project-corder-monkey-5aj7nsgfp-lucas-violas-projects.vercel.app/",
   },
   {
-    title: "Formula 1 App (Work in progress)",
-    image: project1,
-    description:
-      "Application autour de la Formule 1 moderne et historique, Comprenant des fonctionnalités tel que l'authentification utilisateur, compte à rebour, détails des courses et Bio pilotes, integration des 'Highlight' vidéo, Random Fact...",
-    technologies: ["HTML", "CSS", "React Native", "Node.js", "MongoDB", "Expo"],
-  },
-  {
     title: "MyMoviz",
     image: project5,
     description:
       "Application Web affichant les dernier films sortis recemment via une API, possibilité de Like, Noter, voir les avis des autres ainsi que la description du film",
     technologies: ["React", "HTML", "CSS", "JavaScript"],
     url: "https://mymoviespart5-frontend.vercel.app/",
+  },
+  {
+    title: "Formula 1 App (Work in progress)",
+    image: project1,
+    description:
+      "Application autour de la Formule 1 moderne et historique, Comprenant des fonctionnalités tel que l'authentification utilisateur, compte à rebour, détails des courses et Bio pilotes, integration des 'Highlight' vidéo, Random Fact...",
+    technologies: ["HTML", "CSS", "React Native", "Node.js", "MongoDB", "Expo"],
   },
   {
     title: "My Morning News",
