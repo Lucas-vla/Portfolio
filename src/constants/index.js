@@ -5,12 +5,21 @@ import project4 from "../assets/projects/maggy.jpg";
 import project5 from "../assets/projects/mymoviz.png";
 import project0 from "../assets/projects/singe.svg";
 import project6 from "../assets/projects/blue-fox.png";
+import project7 from "../assets/projects/Taskmanager.jpg";
 
 export const HERO_CONTENT = `Je suis un développeur full stack passionné, spécialisé dans la création d'applications web et mobile robustes et évolutives. J'ai développé mes compétences dans les technologies front-end telles que React et Next.js, ainsi que dans les technologies back-end comme Node.js, Express.js et MongoDB. Actuellement, je suis à la recherche d'un stage pour faire mes premiers pas en entreprise dans ce domaine et mettre à profit mon experience pour développer des solutions innovantes qui stimulent la croissance des entreprises et offrent des expériences utilisateur exceptionnelles.`;
 
 export const ABOUT_TEXT = `Je suis un développeur full stack dévoué et polyvalent, passionné par la création d'applications web efficaces et performantes. J'ai étudié diverses technologies, dont React / Native, Next.js, Node.js, Expo Express.js et MongoDB. Mon parcours en développement web a commencé par une profonde curiosité pour le fonctionnement des choses ainsi qu'un potentiel créatif infini, et il a évolué en une reconversion où je m'efforce continuellement d'apprendre et de m'adapter à de nouveaux défis. Je m'épanouis dans des environnements collaboratifs et j'aime résoudre des problèmes complexes pour fournir des solutions de haute qualité. J'aime rester actif, explorer de nouvelles technologies et contribuer à de nouveaux projets.`;
 
 export const PROJECTS = [
+  {
+    title: "Task Flow",
+    image: project7,
+    description:
+      "Un Task Manager V.1 pour m'entrainer, voué à être amélioré au fil du temps",
+    technologies: ["React", "JavaScript", "CSS", "JSX"],
+    url: "https://task-manager-ndb7.vercel.app/",
+  },
   {
     title: "Landing page template FxA",
     image: project6,
